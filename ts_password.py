@@ -46,3 +46,5 @@ class TS_PASSWORD(unittest.TestCase):
                 response_message = driver.find_element(By.XPATH,"//div[@id='login_button_container']//form//h3").text
 
                 self.assertEqual(response_message, "Epic sadface: Username is required")
+
+unittest.main()
